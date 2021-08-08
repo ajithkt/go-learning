@@ -1,0 +1,18 @@
+Array -- > fixed size --> x := [5]inst{1,2,3,4,5}
+Slice -- > flexible size --> x := []inst{1,2,3,4,5} --> length and capacity can be different
+            make([]int,len,cap)
+MAP -- > Key value pair --> x := map[string]string
+                             x := map[string][]int
+                             x := map[string][]int{
+                                 "ajith" : []int{1,2,3,4,5}
+                             }
+Struct -- > Composite type --> type aj struct {
+                                    firstname string
+                                    lastname string
+                                    age int
+                                }
+                                p1 = aj{ 
+                                    firstname: "ajith"
+                                    lastname: "kt"
+                                    age: 36
+                                }
