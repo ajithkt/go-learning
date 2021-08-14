@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	//using arrays
 	x := [5]int{}
 	fmt.Println(x)
 	x[0] = 5

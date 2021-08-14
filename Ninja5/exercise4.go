@@ -1,4 +1,5 @@
 package main
+map[string]int
 
 import (
 	"fmt"
